@@ -34,7 +34,7 @@ var city_list = [
 	'564912',
 	'571557'
 	];
-
+	
 function ajaxGetAsync(url) {
     return new Promise(function (resolve, reject) {
     	setTimeout(function() {
@@ -46,7 +46,7 @@ function ajaxGetAsync(url) {
 		});
 	}, Math.random(1, 5) * 100000);
     });
-}
+};
 
 function runner(){
 	city_list.forEach(function(value,key){
